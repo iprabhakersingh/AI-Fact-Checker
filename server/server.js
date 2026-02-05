@@ -14,7 +14,7 @@ await connectDB()
 
 app.use(express.json())
 app.use(cors({
-  origin: process.env.CLIENT_URL,
+  origin: "https://resu-mate-ai-theta.vercel.app",
   credentials: true
 }));
 
