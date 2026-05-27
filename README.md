@@ -101,17 +101,17 @@ git clone https://github.com/iprabhakersingh/AI-Fact-Checker.git
 
 # Frontend Setup
 
-cd client
-npm install
-npm run dev
+- cd client
+- npm install
+- npm run dev
 
 ---
 
 # Backend Setup
 
-cd server
-npm install
-npm run dev
+- cd server
+- npm install
+- npm run dev
 
 ---
 
@@ -119,9 +119,9 @@ npm run dev
 
 Create `.env` inside `server/`
 
-PORT=5000
-TAVILY_API_KEY=your_tavily_key
-OPENROUTER_API_KEY=your_openrouter_key
+- PORT=5000
+- TAVILY_API_KEY=your_tavily_key
+- OPENROUTER_API_KEY=your_openrouter_key
 
 ---
 
