@@ -20,6 +20,8 @@ https://github.com/iprabhakersingh/AI-Fact-Checker
 
 ---
 
+Note: This project uses Node.js/React stack, so dependencies are managed through package.json instead of requirements.txt.
+
 # Features
 
 - Upload PDF documents
