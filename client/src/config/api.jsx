@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5000/api/facts"
+    baseURL: "https://ai-fact-checker-yr9y.onrender.com/api/facts"
 });
 
 export default api;
