@@ -1,0 +1,106 @@
+# ==================================================
+# AI Fact Checker - Project Dependencies
+# ==================================================
+# This project uses Node.js and React stack.
+# Dependencies are managed using npm packages.
+# --------------------------------------------------
+
+# ==================================================
+# Backend Framework
+# ==================================================
+# Express.js is used to create REST APIs, routes,
+# middleware, and backend server functionality.
+express
+
+# ==================================================
+# Cross-Origin Resource Sharing (CORS)
+# ==================================================
+# Enables communication between frontend (Vercel)
+# and backend (Render) hosted on different domains.
+cors
+
+# ==================================================
+# Environment Variables Management
+# ==================================================
+# Loads secret API keys and environment variables
+# from .env file securely.
+dotenv
+
+# ==================================================
+# File Upload Handling
+# ==================================================
+# Multer is used for handling multipart/form-data
+# and uploading PDF files from frontend.
+multer
+
+# ==================================================
+# HTTP Requests / External API Calls
+# ==================================================
+# Axios is used to make API requests to:
+# - Tavily Search API
+# - OpenRouter / DeepSeek API
+axios
+
+# ==================================================
+# PDF Text Extraction
+# ==================================================
+# pdfjs-dist extracts text content from uploaded
+# PDF documents for claim analysis and verification.
+pdfjs-dist
+
+# ==================================================
+# Development Server Utility
+# ==================================================
+# Nodemon automatically restarts the backend server
+# during development whenever file changes occur.
+nodemon
+
+# ==================================================
+# AI API Integration
+# ==================================================
+# OpenAI SDK is used for integrating DeepSeek models
+# through OpenRouter-compatible API endpoints.
+openai
+
+# ==================================================
+# Frontend Dependencies (Managed Separately)
+# ==================================================
+# Frontend dependencies exist inside:
+# client/package.json
+#
+# Main frontend technologies:
+# - React
+# - Vite
+# - Axios
+#
+# ==================================================
+# Deployment Platforms
+# ==================================================
+# Frontend Deployment:
+# - Vercel
+#
+# Backend Deployment:
+# - Render
+#
+# ==================================================
+# External APIs Used
+# ==================================================
+# 1. Tavily API
+#    - Live web search
+#    - Evidence retrieval
+#
+# 2. OpenRouter / DeepSeek API
+#    - AI-based claim verification
+#    - Misinformation analysis
+#
+# ==================================================
+# Project Purpose
+# ==================================================
+# AI-powered fact-checking application that:
+# - extracts claims from PDFs
+# - verifies information using live web data
+# - detects misinformation and hallucinations
+# - classifies claims as:
+#   Verified / Inaccurate / False
+#
+# ==================================================
